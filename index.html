@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Restarent</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Indain Spices </h1>
+        <button class="hamburger" id ="hamburger">☰</button>
+        <nav>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="column card">
+            <h2>Welcome</h2>
+            <p>
+                Experience the authentic taste of India with our wide range of delicious dishes made from traditional recipes.
+            </p>
+        </section>
+        <section class="column card">
+            <h2>Indian Food </h2>
+            <img src="image1.jpg" alt="image1">
+        </section>
+    </main>
+    <section class="features">
+        <div class="feature card">
+            <img src="image2.jpg" alt="image2" >
+            <h3>Authentic Flavours</h3>
+                   <p>Rich, spicy, and flavorful meals prepared with care and tradition.</p>   
+        </div>
+        <div class="feature card">
+            <img src="image3.jpg" alt="image3" >
+            <h3>Cozy Ambiance</h3>
+                   <p>Enjoy your meal in a warm and inviting atmosphere.</p>
+        </div>
+        <div class="feature card">
+            <img src="image4.jpg" alt="image4" >
+            <h3>Coustomizable Options</h3>
+                  <p>Vegan, vegetarian, and gluten-free options available to suit all diets.</p>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 Indian Spice Delight |  <a href="#">Privacy Policy</a></p>
+    </footer>
+    <script>
+  const hamburger = document.getElementById("hamburger");
+  const navMenu = document.getElementById("navMenu");
+
+  if (hamburger && navMenu) {
+    hamburger.addEventListener("click", () => {
+      navMenu.classList.toggle("active");
+    });
+  }
+</script>
+
+</body>
+</html>
