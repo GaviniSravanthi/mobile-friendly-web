@@ -11,3 +11,7 @@ This project is a single-page layout suitable for an Indian restaurant or any fo
 - 📸 Sections for Welcome, Menu, About Us, Gallery, and Contact
 - 🧾 Footer with Privacy Policy and credits
 - ✨ Clean, semantic HTML and maintainable CSS
+---
+## 📸 Preview
+
+![Blog Screenshot](Screenshot.png) 
